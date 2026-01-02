@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Explore Data - HotpotQA</title>
+    
+    <!-- 引用 CSS (假设与 index.html 共用一个 style.css) -->
+    <link href="style.css" rel="stylesheet">
+    <!-- 引用图标库 -->
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+    <style>
+        /* === 页面特有样式 === */
+        
+        /* 绿色大按钮样式 (仿照你的截图) */
+        .btn-success-custom {
+            background-color: #28a745; /* 经典的绿色 */
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .btn-success-custom:hover {
+            background-color: #218838; /* 悬停深绿色 */
+        }
+
+        /* JSON 展示框样式 */
+        .json-display-box {
+            background-color: #f8f9fa; /* 浅灰背景 */
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 30px;
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace; /* 代码字体 */
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+            text-align: left; /* JSON 左对齐 */
+            white-space: pre-wrap; /* 保持换行和空格 */
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
+            max-width: 900px;
+            margin: 0 auto; /* 居中 */
+        }
+
+        /* 关键字高亮样式 */
+        .highlight-concept {
+            background-color: #fff3cd; /* 浅黄色背景 */
+            color: #856404;            /* 深黄色文字 */
+            font-weight: bold;
+            padding: 2px 4px;
+            border-radius: 4px;
+            border: 1px solid #ffeeba;
+        }
+
+        .highlight-replaced {
+            background-color: #d4edda; /* 浅绿色背景 */
+            color: #155724;            /* 深绿色文字 */
+            font-weight: bold;
+            padding: 2px 4px;
+            border-radius: 4px;
+            border: 1px solid #c3e6cb;
+        }
+
+        /* 简单的 JSON 键值颜色优化 */
+        .json-key { color: #d63384; } /* 类似 VSCode 的红色键名 */
+        .json-string { color: #0d6efd; } /* 蓝色字符串值 */
+    </style>
+</head>
+
+<body>
+
+    <!-- 1. 顶部导航栏 (保持一致) -->
+    <nav>
+        <div class="nav-container">
+            <a class="nav-brand" href="index.html">HotpotQA</a>
+            <div class="nav-links">
+                <a href="#">Blog</a>
+                <!-- 当前页面是 Explorer -->
+                <a href="explorer.html" style="font-weight: bold; text-decoration: underline;">Explorer</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. 头部大图 (仿照图片 3 的布局) -->
+    <header class="masthead" style="background-image: url('home-bg.jpg');"> <!-- 假设你有背景图，没有则显示黑色背景 -->
+        <div class="overlay"></div>
+        <div class="nav-container">
+            <div class="site-heading">
+                <h1>Explore HotpotQA</h1>
+                <span class="subheading">Explore random examples from the dataset</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- 3. 主内容区 -->
+    <div class="container" style="
+    padding: 60px 20px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+">
+        
+        <div class="row">
+            <div class="col-md-12">
+                <p style="font-size: 18px; color: #666; max-width: 800px; margin: 0 auto 30px;">
+                    Here we show a random example from the dataset. Click the button below to see a new random entry with highlighted concept mappings.
+                </p>
+
+                <!-- 绿色按钮 -->
+                <button id="showRandomBtn" class="btn-success-custom">
+                    Show Another Example
+                </button>
+
+                <!-- JSON 展示区域 -->
+                <div id="jsonContainer" class="json-display-box" style="display: none;">
+                    Loading data...
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 页脚 -->
+    <footer style="text-align: center; padding: 40px; margin-top: 40px; border-top: 1px solid #eee; color: #999;">
+        <p>Copyright &copy; HotpotQA Team 2025</p>
+    </footer>
+
+    <!-- 脚本逻辑 -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // === 配置 ===
+            const JSON_FILE = 'data/rnc_v01.json'
+            let allDataRows = [];
+            let isDataLoaded = false;
+
+            const displayBox = document.getElementById('jsonContainer');
+            const btn = document.getElementById('showRandomBtn');
+
+            // 绑定按钮点击事件
+            btn.addEventListener('click', () => {
+                if (!isDataLoaded) {
+                    alert("数据正在加载中，请稍后再试...");
+                    return;
+                }
+                showRandomExample();
+            });
+
+            // === 1. 加载并解析 JSON ===
+            fetch(JSON_FILE)
+                .then(res => {
+                    if (!res.ok) throw new Error("文件加载失败");
+                    return res.json();
+                })
+                .then(data => {
+                    if (Array.isArray(data)) {
+                        allDataRows = data;
+                        isDataLoaded = true;
+                        // 加载完成后自动展示第一条
+                        showRandomExample();
+                        displayBox.style.display = 'block';
+                    } else {
+                        throw new Error("JSON 格式不正确，应该是数组");
+                    }
+                })
+                .catch(err => {
+                    console.error(err);
+                    displayBox.innerText = "Error loading JSON data. Please check console.";
+                    displayBox.style.display = 'block';
+                });
+
+            // === 2. 核心功能：随机展示并高亮 ===
+            function showRandomExample() {
+                if (allDataRows.length === 0) return;
+
+                // 随机选一行
+                const randomIndex = Math.floor(Math.random() * allDataRows.length);
+                const row = allDataRows[randomIndex];
+
+                // 获取数据 (假设 CSV 表头确实是这四个名字，否则请根据实际情况修改)
+                // original_prompt, modified_prompt, concept, replaced
+                const originalPrompt = row['original_prompt'] || "";
+                const modifiedPrompt = row['modified_prompt'] || "";
+                const concept = row['concept'] || "";
+                const replaced = row['replaced'] || "";
+
+                // 高亮处理函数
+                // 在文本中查找 target 单词，并用 span 包裹
+                // 使用正则 \b 匹配单词边界，gi 忽略大小写
+                function highlight(text, target, cssClass) {
+                    if (!target) return text;
+                    try {
+                        // 转义正则特殊字符
+                        const safeTarget = target.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                        const regex = new RegExp(`(${safeTarget})`, 'gi');
+                        // 替换时 $1 保留原文本的大小写
+                        return text.replace(regex, `<span class="${cssClass}">$1</span>`);
+                    } catch (e) {
+                        return text;
+                    }
+                }
+
+                // 对 Prompt 进行高亮处理
+                const originalHighlighted = highlight(originalPrompt, concept, 'highlight-concept');
+                const modifiedHighlighted = highlight(modifiedPrompt, replaced, 'highlight-replaced');
+
+                // === 构造伪 JSON HTML ===
+                // 我们手动拼接 HTML 字符串，让它看起来像 JSON，同时保留 HTML 标签效果
+                const jsonHtml = `
+{
+    <span class="json-key">"original_prompt"</span>: <span class="json-string">"${originalHighlighted}"</span>,
+    <span class="json-key">"modified_prompt"</span>: <span class="json-string">"${modifiedHighlighted}"</span>,
+    <span class="json-key">"concept"</span>: <span class="json-string">"${concept}"</span>,
+    <span class="json-key">"replaced"</span>: <span class="json-string">"${replaced}"</span>
+}`;
+
+                displayBox.innerHTML = jsonHtml;
+            }
+        });
+    </script>
+</body>
+</html>

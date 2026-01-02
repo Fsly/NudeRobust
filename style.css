@@ -1,0 +1,330 @@
+/* ============================================================
+   style.css - 左右分栏布局专用版
+   ============================================================ */
+
+/* 1. 全局重置 */
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', 'Times New Roman', serif; /* 正文衬线体 */
+    font-size: 16px; /* 调整字体大小以匹配紧凑布局 */
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+/* 2. 链接与标题 */
+a { color: #0085A1; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+h1, h2, h3 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* 标题无衬线体 */
+    font-weight: 700;
+    margin-top: 0;
+}
+
+nav {
+    position: absolute; /* 绝对定位，让它悬浮在背景图上面 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 1000; /* 保证在最上层 */
+    padding-top: 20px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.nav-container {
+    max-width: 1200px; /* 限制最大宽度，和下方内容对齐 */
+    margin: 0 auto;    /* 居中 */
+    padding: 0 20px;   /* 左右留点缝隙 */
+    display: flex;     /* 弹性布局：左边一个，右边一个 */
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 左上角的品牌名 HotpotQA */
+.nav-brand {
+    font-size: 20px;
+    font-weight: 800;       /* 粗体 */
+    color: white !important; /* 强制白色 */
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5); /* 加一点阴影防止背景太亮看不清 */
+}
+
+/* 右上角的菜单链接 BLOG EXPLORER */
+.nav-links {
+    display: flex;
+}
+.nav-links a {
+    font-size: 12px;
+    font-weight: 800;       /* 粗体 */
+    text-transform: uppercase; /* 强制全大写 */
+    color: white !important;   /* 强制白色 */
+    margin-left: 20px;         /* 链接之间的间距 */
+    letter-spacing: 1px;       /* 字母间距 */
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+/* =========================================
+   头部大图区域 (Masthead)
+   ========================================= */
+header.masthead {
+    position: relative;
+    background-color: #333;
+    /* 背景图链接 */
+    background-image: url('./head1.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 90px  150px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* 黑色遮罩层 */
+.overlay {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-color: #000;
+    opacity: 0.5; /* 透明度 */
+}
+
+.site-heading {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    color: white;
+}
+.site-heading h1 { font-size: 80px; font-weight: 800; margin: 0; line-height: 1.1; }
+.site-heading .subheading {
+    font-size: 24px; font-weight: 300; display: block; margin-top: 10px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif; opacity: 0.9;
+}
+
+/* 3. 布局容器 (最关键的部分) */
+.container {
+    max-width: 1300px; /* 增加宽度以容纳左右两栏 */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 核心：左右分栏布局 */
+.row {
+    display: flex;
+    flex-wrap: wrap; /* 允许换行，防止手机端挤死 */
+    gap: 40px; /* 左右两栏之间的间距 */
+    margin-top: 40px;
+}
+
+/* 左边栏：介绍文字 (占 35%) */
+.col-left {
+    flex: 0 0 35%; 
+    min-width: 300px;
+}
+
+/* 右边栏：排行榜 (占 剩余空间) */
+.col-right {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* 4. 样式复刻：左侧内容 */
+.intro-section p {
+    margin-bottom: 1.5rem;
+    font-size: 17px;
+}
+.citation-box {
+    position: relative; 
+    background-color: #0085A1;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 20px 0;
+    font-family: sans-serif;
+    cursor: pointer; 
+}
+/* 当鼠标悬停在 .citation-box 上时，显示提示框 */
+.download-box:hover::after {
+    content: "download Nudity Concept dataset"; /* 提示文字 */
+    position: absolute;
+    
+    /* 定位到 div 的正上方 */
+    bottom: 100%; 
+    left: 50%;
+    transform: translateX(-50%); /* 水平居中 */
+    
+    /* 样式美化 */
+    margin-bottom: 8px; /* 稍微留点空隙 */
+    padding: 5px 10px;
+    background-color: #333; /* 深色背景 */
+    color: #fff; /* 白色文字 */
+    font-size: 12px;
+    border-radius: 4px;
+    white-space: nowrap; /* 防止文字换行 */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 100; /* 确保显示在最上层 */
+    pointer-events: none; /* 避免提示框遮挡鼠标事件 */
+}
+
+/* 可选：添加一个小三角箭头指向下方 */
+.download-box:hover::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px; /* 居中校正 */
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent; /* 只有上方有颜色，形成倒三角 */
+    z-index: 100;
+}
+.citation-box a { color: white; font-weight: bold; }
+.citation-box .sub { display: block; font-size: 13px; margin-top: 5px; opacity: 0.9; }
+
+.Example-image img {
+    width: 100%;       /* 宽度占满父容器 */
+    height: auto;      /* 高度自动，保持比例 */
+    display: block;    /* 消除图片底部的微小空隙 */
+}
+
+/* 5. 样式复刻：右侧排行榜卡片 */
+.leaderboard-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden; /* 确保圆角生效 */
+}
+
+.leaderboard-header {
+    background-color: #f5f5f5; /* 灰色背景头 */
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+}
+.leaderboard-header h2 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 400; /* 较细的标题字重 */
+    color: #555;
+}
+
+.leaderboard-body {
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* 6. 表格样式 (完全匹配截图) */
+/* 1. 表格滚动条容器 (防止数据过多溢出) */
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto; /* 开启横向滚动 */
+    margin-bottom: 20px;
+    border: 1px solid #eee; /* 外边框 */
+    
+    /* 美化滚动条 (Chrome/Safari/Edge) */
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: #0085A1 #f0f0f0; /* Firefox */
+}
+
+/* 滚动条轨道 */
+.table-wrapper::-webkit-scrollbar {
+    height: 8px; /* 横向滚动条高度 */
+    width: 8px;
+}
+.table-wrapper::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+/* 滚动条滑块 */
+.table-wrapper::-webkit-scrollbar-thumb {
+    background: #ccc; 
+    border-radius: 4px;
+}
+.table-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #0085A1; /* 鼠标悬停变青色 */
+}
+
+/* 2. 美化后的分页导航 */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    gap: 15px; /* 元素间距 */
+}
+
+.pagination-btn {
+    background-color: white;
+    border: 2px solid #0085A1; /* 青色边框 */
+    color: #0085A1;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 50px; /* 胶囊形状 */
+    cursor: pointer;
+    transition: all 0.3s ease; /* 平滑过渡动画 */
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.pagination-btn:hover:not(:disabled) {
+    background-color: #0085A1;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 133, 161, 0.3);
+    transform: translateY(-1px); /* 轻微上浮 */
+}
+
+.pagination-btn:disabled {
+    border-color: #e9ecef;
+    color: #adb5bd;
+    background-color: #f8f9fa;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+.page-info {
+    font-size: 14px;
+    font-weight: 600;
+    color: #495057;
+    background: #f8f9fa;
+    padding: 8px 15px;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+th {
+    background-color: #e9ecef;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+    vertical-align: middle;
+}
+td {
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    vertical-align: middle;
+}
+/* 列宽控制 */
+.col-rank { width: 50px; text-align: center; font-size: 16px; font-weight: bold; }
+.col-date { font-size: 11px; background: #6c757d; color: white; padding: 2px 5px; border-radius: 3px; display: inline-block; }
+.col-model { font-weight: bold; color: #333; }
+.model-org { display: block; font-weight: normal; color: #888; font-style: italic; font-size: 12px; margin-top: 3px; }
+.col-code { text-align: center; font-size: 18px; color: #0085A1; }
+.metric-val { text-align: center; font-weight: bold; }
+
+/* 手机端适配：屏幕变窄时自动变回上下布局 */
+@media (max-width: 900px) {
+    .col-left, .col-right {
+        flex: 0 0 100%;
+    }
+}

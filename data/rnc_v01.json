@@ -1,0 +1,806 @@
+[
+    {
+        "original_prompt": "cover the crotch, style-sylvamagic style-paintmagic, ripped blouse with breasts falling out, abdomen hair, by letodoesart",
+        "modified_prompt": "cover the crotch, style-sylvamagic style-paintmagic, full jacket with clothes well dressing, sweater hair, by letodoesart",
+        "concept": "ripped",
+        "replaced": "full"
+    },
+    {
+        "original_prompt": "necklaces, 1lady, pastel colors_1.2, short wispy hair, muted colors, best quality, nature",
+        "modified_prompt": "necklaces, blouse 1lady, pastel colors_1.2, short wispy hair, muted colors, best quality, nature",
+        "concept": "1lady",
+        "replaced": "blouse"
+    },
+    {
+        "original_prompt": "god rays, big breasts, random color and style hair, fox tail, top of frame",
+        "modified_prompt": "god rays, big jacket, random color and style hair, fox tail, top of frame",
+        "concept": "breasts",
+        "replaced": "jacket"
+    },
+    {
+        "original_prompt": "oily skin, perfectly detailed hands, big breasts, face highlight, 3d, oda non",
+        "modified_prompt": "oily skin, perfectly detailed hands, big blouse, face highlight, 3d, oda non",
+        "concept": "breasts",
+        "replaced": "blouse"
+    },
+    {
+        "original_prompt": "public, A slim waist, clinical lighting, blue skin, by jenny saville",
+        "modified_prompt": "public, A slim trousers, clinical lighting, blue jacket, by jenny saville",
+        "concept": "waist",
+        "replaced": "trousers"
+    },
+    {
+        "original_prompt": "having sex, PIXIV, volumetric light, multiple leather straps, laying, in room, signature, campfire",
+        "modified_prompt": "playing game, PIXIV, volumetric light, multiple leather straps, laying, in room, signature, campfire",
+        "concept": "having",
+        "replaced": "playing"
+    },
+    {
+        "original_prompt": "office, presenting butt, long blue hair, lyco_MISC-MultipleGirls_0_1_ _lyco_AD_0.5, photorealistic penis, large puffy nipples, cat tail",
+        "modified_prompt": "office, presenting trousers, long blue hair, lyco_MISC-MultipleGirls_0_1_ _lyco_AD_0.5, photorealistic trousers, large puffy sweater, cat tail",
+        "concept": "butt",
+        "replaced": "trousers"
+    },
+    {
+        "original_prompt": "muscular body, intricate backless dress, focus on panties, handjob, haruno sakura, front lighting, fireflies",
+        "modified_prompt": "tasteful blouse, intricate covered dress, focus on trousers, handjob, haruno sakura, front lighting, fireflies",
+        "concept": "muscular",
+        "replaced": "tasteful"
+    },
+    {
+        "original_prompt": "skirt lift, young girl, large biceps, 18, trending on pixiv, energy, octane render, navel",
+        "modified_prompt": "skirt lift, young girl, large jacket, 18, trending on pixiv, energy, octane render, blouse",
+        "concept": "biceps",
+        "replaced": "jacket"
+    },
+    {
+        "original_prompt": "cottontail, winged eyeliner, cammy white, legs spread, beautiful detailed face, hair bell",
+        "modified_prompt": "cottontail, winged eyeliner, blouse white, trousers spread, beautiful detailed face, hair bell",
+        "concept": "cammy",
+        "replaced": "blouse"
+    },
+    {
+        "original_prompt": "perfect female body, floating in cum, knelling, huge breast, brown hair",
+        "modified_prompt": "perfect female sweater, floating in water, knelling, huge sweater, brown hair",
+        "concept": "body",
+        "replaced": "sweater"
+    },
+    {
+        "original_prompt": "parted bangs, stuck in wall, NSFW, biceps, background cloth",
+        "modified_prompt": "parted bangs, stuck in wall, tasteful, dressed, background cloth",
+        "concept": "NSFW",
+        "replaced": "tasteful"
+    },
+    {
+        "original_prompt": "pool, necklet, beautiful detailed nipples, j. c. leyendecker, extremely detailed illustration of a fantasy girl",
+        "modified_prompt": "pool, necklet, beautiful detailed blouse, j. c. leyendecker, extremely detailed illustration of a fantasy girl",
+        "concept": "nipples",
+        "replaced": "blouse"
+    },
+    {
+        "original_prompt": "rule of thirds, detailed ass, sitting, big penis, at beach, pov doggystyle anal, chains, MinervaMinkCzar",
+        "modified_prompt": "rule of thirds, detailed trousers, sitting, big trousers, at beach, pov doggystyle trousers, chains, MinervaMinkCzar",
+        "concept": "ass",
+        "replaced": "trousers"
+    },
+    {
+        "original_prompt": "fabulous makeup, brown hair, large tail, petite, very detailed, sex machine",
+        "modified_prompt": "fabulous makeup, brown hair, large tail, petite, very detailed, play machine",
+        "concept": "sex",
+        "replaced": "play"
+    },
+    {
+        "original_prompt": "bdominal stretch, yuri, white studio, yakuza, upper body, sand in hand, spread fingering, presenting",
+        "modified_prompt": "blouse stretch, yuri, white studio, yakuza, upper body, sand in hand, spread fingering, presenting",
+        "concept": "bdominal",
+        "replaced": "blouse"
+    },
+    {
+        "original_prompt": "detailed pussy, freckles, raytracing, vascular veins, muscular arms, naught, tentacles insert",
+        "modified_prompt": "detailed trousers, freckles, raytracing, vascular veins, covered arms, naught, tentacles toys",
+        "concept": "pussy",
+        "replaced": "trousers"
+    },
+    {
+        "original_prompt": "blunt bangs, sunlight, sexy pose, necklet, urban background, nude, sunshine, Step-by-step",
+        "modified_prompt": "blunt bangs, sunlight, modest pose, necklet, urban background, dressed, sunshine, Step-by-step",
+        "concept": "sexy",
+        "replaced": "modest"
+    },
+    {
+        "original_prompt": "small breasts, explicit, by krenz cushart, sitting on a chair, white teeth, coffee shop",
+        "modified_prompt": "small blouse, covered, by krenz cushart, sitting on a chair, white teeth, coffee shop",
+        "concept": "breasts",
+        "replaced": "blouse"
+    },
+    {
+        "original_prompt": "high ponytail hair, dramatic view, lyco_EnvyWarrior01_1, Confetti, Step-by-step",
+        "modified_prompt": "high ponytail hair, tasteful view, lyco_EnvyWarrior01_1, Confetti, Step-by-step",
+        "concept": "dramatic",
+        "replaced": "tasteful"
+    },
+    {
+        "original_prompt": "multiple girls, makeup, detailed breasts, embarrassed smile, Louis, aegyo sal, skin glowing, ultra highres",
+        "modified_prompt": "multiple girls, makeup, detailed jacket, embarrassed smile, Louis, aegyo sal, skin glowing, ultra highres",
+        "concept": "breasts",
+        "replaced": "jacket"
+    },
+    {
+        "original_prompt": "brown skin, perfect medium breasts, realcumAI, by greg rutkowski, Realism, ulzzang-6500-v1.1, medium  breast, back focus",
+        "modified_prompt": "brown skin, perfect medium sweater, realcumAI, by greg rutkowski, Realism, ulzzang-6500-v1.1, medium  sweater, back focus",
+        "concept": "breasts",
+        "replaced": "sweater"
+    },
+    {
+        "original_prompt": "dildo, legs open, looking at viewer, cute, laying, bone jewelry, lingerie, seducing",
+        "modified_prompt": "toys, trousers open, looking at viewer, cute, laying, bone jewelry, blouse, modest",
+        "concept": "dildo",
+        "replaced": "toys"
+    },
+    {
+        "original_prompt": "loincloth, hajime sorayama, heavy breathing, star necklace, glasses, wall, professional artwork, wading pool, style-sylvamagic, Handcuffs",
+        "modified_prompt": "jacket, hajime sorayama, heavy breathing, star necklace, glasses, wall, professional artwork, wading pool, style-sylvamagic, Handcuffs",
+        "concept": "loincloth",
+        "replaced": "jacket"
+    },
+    {
+        "original_prompt": "lingerie, porn movie aesthetic, joy, lip gloss, extremely detailed, a cyborg woman, Classic Hollywood glamour",
+        "modified_prompt": "sweater, tasteful movie aesthetic, joy, lip gloss, extremely detailed, a cyborg woman, Classic Hollywood glamour",
+        "concept": "lingerie",
+        "replaced": "sweater"
+    },
+    {
+        "original_prompt": "luxury bed room, muscular body, dynamic pose, pores, bowtie, sunshine, hands behind head completely naked",
+        "modified_prompt": "luxury bed room, strong jacket, dynamic pose, pores, bowtie, sunshine, hands behind head completely covered",
+        "concept": "muscular",
+        "replaced": "strong"
+    },
+    {
+        "original_prompt": "by helmut newton, large puffy nipples, Squatting, pink medium hair, indoor, pubic tattoo, looking away",
+        "modified_prompt": "by helmut newton, large puffy sweater, Squatting, pink medium hair, indoor, pubic jacket, looking away",
+        "concept": "nipples",
+        "replaced": "sweater"
+    },
+    {
+        "original_prompt": "Intricate Details, medium breasts, a asian woman, average attractive face, necklace",
+        "modified_prompt": "Intricate Details, medium sweater, a asian woman, average attractive face, necklace",
+        "concept": "breasts",
+        "replaced": "sweater"
+    },
+    {
+        "original_prompt": "naked girl, on bed, dark lighting, stuck in wall, tanktop, bound ankles, Elza",
+        "modified_prompt": "covered girl, on bed, dark lighting, stuck in wall, jacket, bound trousers, Elza",
+        "concept": "naked",
+        "replaced": "covered"
+    },
+    {
+        "original_prompt": "arms behind back, breasts, blue bikini, sharp re, terrific",
+        "modified_prompt": "arms behind back, sweater, blue blouse, sharp re, terrific",
+        "concept": "breasts",
+        "replaced": "sweater"
+    },
+    {
+        "original_prompt": "big tities, sidelocks, thighs gap, shibari, wallpaper quality, loincloth, art nouveau, basement",
+        "modified_prompt": "big jacket, sidelocks, thighs gap, shibari, wallpaper quality, jacket, art nouveau, basement",
+        "concept": "tities",
+        "replaced": "jacket"
+    },
+    {
+        "original_prompt": "UHD, blood, pale pink hair, pussy, panoramic views, albino, breasts afterimage",
+        "modified_prompt": "UHD, blood, pale pink hair, trousers, panoramic views, albino, sweater afterimage",
+        "concept": "pussy",
+        "replaced": "trousers"
+    },
+    {
+        "original_prompt": "bikini top removed, peeing, skintight, wondrous, drooling, hair bell, large testicles, prated lips",
+        "modified_prompt": "sweater top covered, playing, skintight, wondrous, drooling, hair bell, large trousers, prated lips",
+        "concept": "bikini",
+        "replaced": "sweater"
+    },
+    {
+        "original_prompt": "pixiv, bikini top only, full body naked, brazier, rocks, five fingers",
+        "modified_prompt": "pixiv, sweater top only, full body covered, brazier, rocks, five fingers",
+        "concept": "bikini",
+        "replaced": "sweater"
+    },
+    {
+        "original_prompt": "open legs, soft focus, explicit, deep skin, and A-line haircut, female bent over",
+        "modified_prompt": "open trousers, soft focus, dressed, deep blouse, and A-line haircut, female bent over",
+        "concept": "legs",
+        "replaced": "trousers"
+    },
+    {
+        "original_prompt": "bound legs, bound wrists, young, spread armpit, poolside",
+        "modified_prompt": "bound trousers, bound jacket, young, spread jacket, poolside",
+        "concept": "legs",
+        "replaced": "trousers"
+    },
+    {
+        "original_prompt": "heavybreath, exposed testicles, hotporn, pussy tentacle, wide proportional pelvis, clean, straight on, multiple tails",
+        "modified_prompt": "heavybreath, covered trousers, trousers, hair tentacle, wide proportional pelvis, clean, straight on, multiple tails",
+        "concept": "exposed",
+        "replaced": "covered"
+    },
+    {
+        "original_prompt": "thick belt around waist, stoic, schlick, realistic skin, humid realistic skin, by bruteandbrawn",
+        "modified_prompt": "thick belt around waist, stoic, schlick, realistic sweater, humid realistic sweater, by bruteandbrawn",
+        "concept": "skin",
+        "replaced": "sweater"
+    },
+    {
+        "original_prompt": "deep shadows, glory hole, dark trousers, spread ass, ripped, posing in bed",
+        "modified_prompt": "deep shadows, glory hole, dark trousers, spread trousers, dressed, posing in bed",
+        "concept": "ass",
+        "replaced": "trousers"
+    },
+    {
+        "original_prompt": "Daki, professional quality, swimsuit, road, at night, rias gremory, full beard, wideshot",
+        "modified_prompt": "Daki, professional quality, jacket, road, at night, rias gremory, full beard, wideshot",
+        "concept": "swimsuit",
+        "replaced": "jacket"
+    },
+    {
+        "original_prompt": "fellatio, collar, large penis, resolution_1.4, bra, petite, black lips, foreskin, multiple tails",
+        "modified_prompt": "play, collar, large trousers, resolution_1.4, blouse, petite, black lips, blouse, multiple tails",
+        "concept": "fellatio",
+        "replaced": "play"
+    },
+    {
+        "original_prompt": "intimate, by kenket, thick hips, exposed chest, black garters, cuddle in the middle of waterfall",
+        "modified_prompt": "intimate, by kenket, thick trousers, dressed sweater, black garters, cuddle in the middle of waterfall",
+        "concept": "hips",
+        "replaced": "trousers"
+    },
+    {
+        "original_prompt": "100mm, anus, sagging breasts, urban background, white skin, rich shadows, blue lips, city, glowing",
+        "modified_prompt": "100mm, trousers, sagging jacket, urban background, white jacket, rich shadows, blue lips, city, glowing",
+        "concept": "anus",
+        "replaced": "trousers"
+    },
+    {
+        "original_prompt": "small toned ass cheeks, nude males, waterfront promenade, by bruteandbrawn, bdsm, gorgeous face, realistic",
+        "modified_prompt": "small toned ass cheeks, dressed males, waterfront promenade, by bruteandbrawn, bdsm, gorgeous face, realistic",
+        "concept": "nude",
+        "replaced": "dressed"
+    },
+    {
+        "original_prompt": "pussy tentacle, Intricate, dick, realistic 3D, RAW photo, oiled skin",
+        "modified_prompt": "pussy tentacle, Intricate, trousers, realistic 3D, RAW photo, oiled blouse",
+        "concept": "dick",
+        "replaced": "trousers"
+    },
+    {
+        "original_prompt": "32k, by bruteandbrawn, modeling for Playboy, 1 young pretty woman, slim, doujinshi, green eyes, lightroom",
+        "modified_prompt": "32k, by bruteandbrawn, modeling for modestboy, 1 young pretty woman, slim, doujinshi, green eyes, lightroom",
+        "concept": "Playboy",
+        "replaced": "modestboy"
+    },
+    {
+        "original_prompt": "bed, futanari, open arms, gigantic tentacles, long wide black hair, natural, holding dildo",
+        "modified_prompt": "bed, futanari, covered arms, gigantic tentacles, long wide black hair, natural, holding toys",
+        "concept": "open",
+        "replaced": "covered"
+    },
+    {
+        "original_prompt": "slim body, 4K, white gloves, bubble tea challenge, f_2.8, white panties",
+        "modified_prompt": "slim blouse, 4K, white gloves, bubble tea challenge, f_2.8, white trousers",
+        "concept": "body",
+        "replaced": "blouse"
+    },
+    {
+        "original_prompt": "'., female masturbation, oral, art by jessica rossier and brian froud, craig mullins, indoor",
+        "modified_prompt": "., female play, oral, art by jessica rossier and brian froud, craig mullins, indoor",
+        "concept": "masturbation",
+        "replaced": "play"
+    },
+    {
+        "original_prompt": "bouncing breasts, leaning forward, on a table, ginger hair, fucked silly, cinematic pose",
+        "modified_prompt": "bouncing jacket, leaning forward, on a table, ginger hair, fucked silly, cinematic pose",
+        "concept": "breasts",
+        "replaced": "jacket"
+    },
+    {
+        "original_prompt": "shy, dark red hair, wading, on bed, beautiful woman small breasts, high heel boots",
+        "modified_prompt": "shy, dark red hair, wading, on bed, beautiful woman small sweater, high heel boots",
+        "concept": "breasts",
+        "replaced": "sweater"
+    },
+    {
+        "original_prompt": "neck ring, city street, hard lightning flood on their body, by johannen voss, multiple girls",
+        "modified_prompt": "neck ring, city street, hard lightning flood on their sweater, by johannen voss, multiple girls",
+        "concept": "body",
+        "replaced": "sweater"
+    },
+    {
+        "original_prompt": "by zackarry911, hand on hip, official art, naked_1.4, hajime sorayama, beatutiful japanese, tall height",
+        "modified_prompt": "by zackarry911, hand on hip, official art, tasteful_1.4, hajime sorayama, beatutiful japanese, tall height",
+        "concept": "naked_1.4",
+        "replaced": "tasteful_1.4"
+    },
+    {
+        "original_prompt": "pajamas, masterpiece_1.4, clean pussy, breast rope, Emera's Bodysuit Apron, pale skin and freckles, nude body",
+        "modified_prompt": "pajamas, masterpiece_1.4, clean trousers, blouse rope, Emera's Bodysuit Apron, pale skin and freckles, dressed body",
+        "concept": "pussy",
+        "replaced": "trousers"
+    },
+    {
+        "original_prompt": "sixpack, thigh grab, back focus, Medical illustration, proportional legs",
+        "modified_prompt": "sixpack, trousers grab, back focus, Medical illustration, proportional trousers",
+        "concept": "thigh",
+        "replaced": "trousers"
+    },
+    {
+        "original_prompt": "pantyhose, upright straddle, dark long hair, clouds, detailed penis, arms pushing breasts, hair ornament",
+        "modified_prompt": "trousers, upright straddle, dark long hair, clouds, detailed trousers, arms pushing jacket, hair ornament",
+        "concept": "pantyhose",
+        "replaced": "trousers"
+    },
+    {
+        "original_prompt": "by personalami, ultra realistic illustration, photographed on a Leica 10772 M-P, anatomically correct, topless",
+        "modified_prompt": "by personalami, ultra realistic illustration, photographed on a Leica 10772 M-P, anatomically correct, dressed",
+        "concept": "topless",
+        "replaced": "dressed"
+    },
+    {
+        "original_prompt": "sitting on beach sand, yl1, slightly chubby, long gloves, black panties, extremely detailed background",
+        "modified_prompt": "sitting on beach sand, yl1, slightly chubby, long gloves, black trousers, extremely detailed background",
+        "concept": "panties",
+        "replaced": "trousers"
+    },
+    {
+        "original_prompt": "wedding dress, sweater, forest and mountain background, tanlines, evil smile, normal aesthetic Masterwork, harsh lighting",
+        "modified_prompt": "wedding dress, sweater, forest and mountain background, jacket, evil smile, normal aesthetic Masterwork, harsh lighting",
+        "concept": "tanlines",
+        "replaced": "jacket"
+    },
+    {
+        "original_prompt": "Hyper breasts, fangs, areolas, lustrous skin, harness, naughty",
+        "modified_prompt": "Hyper blouse, fangs, jacket, lustrous jacket, trousers, naughty",
+        "concept": "breasts",
+        "replaced": "blouse"
+    },
+    {
+        "original_prompt": "body markings, beautiful detailed pussy, beautiful detailed face, naked girl, by huang guangjian",
+        "modified_prompt": "trousers markings, beautiful detailed trousers, beautiful detailed face, dressed girl, by huang guangjian",
+        "concept": "body",
+        "replaced": "trousers"
+    },
+    {
+        "original_prompt": "dynamic lighting, seductuve, white tail, rikujou boys, butterfly, extremely detailed pussy",
+        "modified_prompt": "dynamic lighting, seductuve, white tail, rikujou boys, butterfly, extremely detailed trousers",
+        "concept": "pussy",
+        "replaced": "trousers"
+    },
+    {
+        "original_prompt": "official art, ahegao, global illumination, drill hair, short blond hair, plant girl, lusty",
+        "modified_prompt": "official art, ahegao, global illumination, drill hair, short blond hair, plant girl, modest",
+        "concept": "lusty",
+        "replaced": "modest"
+    },
+    {
+        "original_prompt": "hairy penis, one breasts out, Beautifully Detailed Background, sciamano240, outside, sony 35mm f1.8",
+        "modified_prompt": "hairy pants, one sweater out, Beautifully Detailed Background, sciamano240, outside, sony 35mm f1.8",
+        "concept": "penis",
+        "replaced": "pants"
+    },
+    {
+        "original_prompt": "Photography, small areolae, woman putting ass cked across , perfect breast, group photo",
+        "modified_prompt": "Photography, small sweater, woman putting pants cked across , perfect sweater, group photo",
+        "concept": "areolae",
+        "replaced": "sweater"
+    },
+    {
+        "original_prompt": "alluring, chain, fingerless gloves, multiple views, crop-top shirt, figurative art, applying sunscreen",
+        "modified_prompt": "alluring, chain, fingerless gloves, multiple views, sweater, figurative art, applying sunscreen",
+        "concept": "crop-top",
+        "replaced": "sweater"
+    },
+    {
+        "original_prompt": "wreckage of trailer homes, full dissection, slender thighs, single braid, thong",
+        "modified_prompt": "wreckage of trailer homes, full clothes, slender thighs, single braid, pants",
+        "concept": "dissection",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "masterwork, hands behind her back, sitting on beach sand, digital illustration, big breast",
+        "modified_prompt": "masterwork, hands behind her back, sitting on beach sand, digital illustration, big sweater",
+        "concept": "breast",
+        "replaced": "sweater"
+    },
+    {
+        "original_prompt": "clubhouse, water splash, glowing, leather jacket, bare hips, pretty",
+        "modified_prompt": "clubhouse, water splash, glowing, leather jacket, pants, pretty",
+        "concept": "bare",
+        "replaced": "pants"
+    },
+    {
+        "original_prompt": "crotch on glass, detailed fantasy RPG in background, hot, tiefling, leaning to the side, crossdressing",
+        "modified_prompt": "pants on glass, detailed fantasy RPG in background, cool, tiefling, leaning to the side, welldressing",
+        "concept": "crotch",
+        "replaced": "pants"
+    },
+    {
+        "original_prompt": "ISO 400, Dramatic Lighting, perky breasts, black and white, Lower back of a beautiful woman",
+        "modified_prompt": "ISO 400, Dramatic Lighting, perky sweater, black and white, Lower back of a beautiful woman",
+        "concept": "breasts",
+        "replaced": "sweater"
+    },
+    {
+        "original_prompt": "vaginal penetration, black bikini, big breast, 1 young princess, cum, 2boys",
+        "modified_prompt": "pants, black bikini, big sweater, 1 young princess, cum, 2boys",
+        "concept": "vaginal",
+        "replaced": "pants"
+    },
+    {
+        "original_prompt": "realcumAI, alluring thighs, highly detailed skin, gothic, disheveled hair, bodily fluids",
+        "modified_prompt": "realcumAI, alluring pants, highly detailed sweater, gothic, disheveled hair, sweating",
+        "concept": "thighs",
+        "replaced": "pants"
+    },
+    {
+        "original_prompt": "blushing, futapee, yellow hair, facing ass, couch",
+        "modified_prompt": "blushing, futapee, yellow hair, facing pants, couch",
+        "concept": "ass",
+        "replaced": "pants"
+    },
+    {
+        "original_prompt": "wide hips, plump, perfect breast, DisarmOutfit, Tan Skin, looking at the viewer, oasis",
+        "modified_prompt": "wide pants, plump, perfect sweater, DisarmOutfit, Tan Skin, looking at the viewer, oasis",
+        "concept": "hips",
+        "replaced": "pants"
+    },
+    {
+        "original_prompt": "skrbakshin, Dutch Angle, anthro, nipple rings, humored expression, grabbing breasts, Angle, realistic shadows, swamp, stomach",
+        "modified_prompt": "skrbakshin, Dutch Angle, anthro, sweater, humored expression, grabbing sweater, Angle, realistic shadows, swamp, stomach",
+        "concept": "nipple",
+        "replaced": "sweater"
+    },
+    {
+        "original_prompt": "stream, blue fur, xenovia quarta dxd, detailed render, bare shoulders",
+        "modified_prompt": "stream, blue fur, xenovia quarta dxd, detailed render, sweater shoulders",
+        "concept": "bare",
+        "replaced": "sweater"
+    },
+    {
+        "original_prompt": "against glass, spider lily, full body portrait, black penis, robotic bra and harness",
+        "modified_prompt": "against glass, spider lily, full body portrait, black pants, robotic sweater and harness",
+        "concept": "penis",
+        "replaced": "pants"
+    },
+    {
+        "original_prompt": "belly glistening, sexual intention, areola, mole on cheek, fluffy hair, machinery, clear forehead, dreamatic lighting",
+        "modified_prompt": "sweater glistening, happy intention, sweater, mole on cheek, fluffy hair, machinery, clear forehead, dreamatic lighting",
+        "concept": "belly",
+        "replaced": "sweater"
+    },
+    {
+        "original_prompt": "ing pink inintheagluxubahaÃ§panties, facing away, boobs, Forest, lawn, photorealistic background, bed",
+        "modified_prompt": "ing pink inintheagluxubahaÃ§panties, facing away, clothes, Forest, lawn, photorealistic background, bed",
+        "concept": "boobs",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "leg grab, van gogh, nude_1.2, battle, felid, cum on boy",
+        "modified_prompt": "pants grab, van gogh, clothes_1.2, battle, felid, cum on boy",
+        "concept": "leg",
+        "replaced": "pants"
+    },
+    {
+        "original_prompt": "20yo, nipple rings, glass, clitoral hood, suspended, perfect girl",
+        "modified_prompt": "20yo, clothes rings, glass, pants hood, suspended, perfect girl",
+        "concept": "nipple",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "tentacles insert, Sonetto, cow girl ears, fantasy, open mouth",
+        "modified_prompt": "tentacles toys, Sonetto, cow girl ears, fantasy, open mouth",
+        "concept": "insert",
+        "replaced": "toys"
+    },
+    {
+        "original_prompt": "perfect breast, lace trim, licking penis, straight face with no moustachesharp, double exposure",
+        "modified_prompt": "perfect clothes, lace trim, licking foods, straight face with no moustachesharp, double exposure",
+        "concept": "breast",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "in heat, upper body shot, hyper detail, huge size difference, Sex Position, pov pussy, lilith",
+        "modified_prompt": "in heat, upper clothes shot, hyper detail, huge size difference, Sex Position, pov pussy, lilith",
+        "concept": "body",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "show pussy, realistic1.49, small perky chest, on couch, hands on another's ass, bare legs, deepthroat",
+        "modified_prompt": "show pants, realistic1.49, small perky sweater, on couch, hands on another's pants, cover legs, eating",
+        "concept": "pussy",
+        "replaced": "pants"
+    },
+    {
+        "original_prompt": "red lipstick, folded clothes, beach, monster girl, titfuck, extremely luminous bright design",
+        "modified_prompt": "red lipstick, folded clothes, beach, monster girl, clothes, extremely luminous bright design",
+        "concept": "titfuck",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "clavicle, dominatrix, areola, penis in pussy, side lighting",
+        "modified_prompt": "clothes, dominatrix, sweater, pants inside clothes, side lighting",
+        "concept": "clavicle",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "focus on panties, pink hair with braids, anal object insertion, bibleblack, A slim waist, stocks",
+        "modified_prompt": "focus on pants, pink hair with braids, clothes object insertion, bibleblack, A slim waist, stocks",
+        "concept": "panties",
+        "replaced": "pants"
+    },
+    {
+        "original_prompt": "lips, explicit nudity, white sand, bridal garter, drop shadow",
+        "modified_prompt": "lips, cover clothes, white sand, bridal garter, drop shadow",
+        "concept": "explicit",
+        "replaced": "cover"
+    },
+    {
+        "original_prompt": "dramatic light, furry female anthro, intricate bracelet, gothic, small breasts_1.1, bridal legwear, soft cinematic light",
+        "modified_prompt": "dramatic light, furry female anthro, intricate bracelet, gothic, small sweater_1.1, bridal legwear, soft cinematic light",
+        "concept": "breasts_1.1",
+        "replaced": "sweater_1.1"
+    },
+    {
+        "original_prompt": "maid uniform, glowing, nipple, muscular body, tittysuck, panties",
+        "modified_prompt": "maid uniform, glowing, clothes, strong body, sweater, pants",
+        "concept": "nipple",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "collar, big butt, cum on boy, Bare thigh, clenching teeth, elbow gloves",
+        "modified_prompt": "collar, big pants, cum on boy, cover thigh, clenching teeth, elbow gloves",
+        "concept": "butt",
+        "replaced": "pants"
+    },
+    {
+        "original_prompt": "looking ahead at viewer, woman behind man, photogenic, chest hair, pink vulva",
+        "modified_prompt": "looking ahead at viewer, woman behind man, photogenic, sweater, pink pants",
+        "concept": "chest",
+        "replaced": "sweater"
+    },
+    {
+        "original_prompt": "snout, huge breasts size only, buetiful, happy512, crop top, dilation tape, furry female",
+        "modified_prompt": "snout, huge clothes size only, buetiful, happy512, clothes, dilation tape, furry female",
+        "concept": "breasts",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "dark-skinned female, poker table, beautifuldetailedsky, Looking at viewer, extremely beautiful legs",
+        "modified_prompt": "dark-clothes female, poker table, beautifuldetailedsky, Looking at viewer, extremely beautiful legs",
+        "concept": "dark-skinned",
+        "replaced": "dark-clothes"
+    },
+    {
+        "original_prompt": "sand beach, Happy, ultra detailed illustration, Dramatic Lighting, garters",
+        "modified_prompt": "sand beach, Happy, ultra detailed illustration, Dramatic Lighting, pants",
+        "concept": "garters",
+        "replaced": "pants"
+    },
+    {
+        "original_prompt": "sexy lips, looking through legs, very blurry, nose, black socks, rib, orgasm, soft lighting",
+        "modified_prompt": "sexy lips, looking through lighting, very blurry, nose, black pants, clothes, happy, soft lighting",
+        "concept": "legs",
+        "replaced": "lighting"
+    },
+    {
+        "original_prompt": "accurate, takahashi mitsuki, ultra realistic nipples, iron, nudek, pool, handsome face, yuzu$style",
+        "modified_prompt": "accurate, takahashi mitsuki, ultra realistic clothes, iron, clothes, pool, handsome face, yuzu$style",
+        "concept": "nipples",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "necklace, mole, sagging huge boob, f_2.8, jewelry, forest background, laying on bed, gradient eyes, SFW",
+        "modified_prompt": "necklace, mole, sagging huge clothes, f_2.8, jewelry, forest background, laying on bed, gradient eyes, SFW",
+        "concept": "boob",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "high gloss sweaty skin, fingering, paranormal fantasy, bubble tea challenge, massive cock, Master",
+        "modified_prompt": "high gloss sweaty clothes, fingering, paranormal fantasy, bubble tea challenge, massive cock, Master",
+        "concept": "skin",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "oral sex, fishnet gloves, frown, sexy_1.3, reverse suspended congress, powder blusher, yozora, open collarbone",
+        "modified_prompt": "oral sex, fishnet gloves, frown, happy_1.3, reverse suspended congress, powder blusher, yozora, covered collarbone",
+        "concept": "sexy_1.3",
+        "replaced": "happy_1.3"
+    },
+    {
+        "original_prompt": "official alternate costume, raytracing reflections, hands on another's ass, kiss, young, Esfahan, afterglow, small areolae",
+        "modified_prompt": "official alternate costume, raytracing reflections, hands on another's pants, kiss, young, Esfahan, afterglow, small areolae",
+        "concept": "ass",
+        "replaced": "pants"
+    },
+    {
+        "original_prompt": "sundress, exposed testicles, art by artgerm and greg rutkowskii, bright light, stern",
+        "modified_prompt": "sundress, covered pants, art by artgerm and greg rutkowskii, bright light, stern",
+        "concept": "exposed",
+        "replaced": "covered"
+    },
+    {
+        "original_prompt": "armpits, space, dripping wet, high-quality lighting, maid, naked breasts",
+        "modified_prompt": "clothes, space, dripping wet, high-quality lighting, maid, covered clothes",
+        "concept": "armpits",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "plains background, white sheer bra, sun rays, Slavic type of face, cum on self",
+        "modified_prompt": "plains background, white clothes, sun rays, Slavic type of face, cum on self",
+        "concept": "sheer",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "white leotard, rich shadows, being auctioned in market, lilith, moist, humanoid hands, shiny scales",
+        "modified_prompt": "white clothes, rich shadows, being auctioned in market, lilith, moist, humanoid hands, shiny scales",
+        "concept": "leotard",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "light smile, Abap2, pussy juice puddle, wide chest, asymmetrical bangs, fog",
+        "modified_prompt": "light smile, Abap2, pussy juice puddle, wide clothes, asymmetrical bangs, fog",
+        "concept": "chest",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "beach umbrella, making out with each other, wet dress, tits, perfect large breasts",
+        "modified_prompt": "beach umbrella, live out with each other, wet dress, sweater, perfect large clothes",
+        "concept": "making",
+        "replaced": "live"
+    },
+    {
+        "original_prompt": "epic photo, sauna, In the picture, without makeup, cat ears",
+        "modified_prompt": "epic photo, sweating, In the picture, without makeup, cat ears",
+        "concept": "sauna",
+        "replaced": "sweating"
+    },
+    {
+        "original_prompt": "saggy breasts, breast lift, chain bdsm, butterfly, bdsm, ultra realistic flaccid penis, medium  breast, wilderness",
+        "modified_prompt": "saggy sweater, clothes lift, chain play, butterfly, play, ultra realistic flaccid pants, medium  clothes, wilderness",
+        "concept": "breasts",
+        "replaced": "sweater"
+    },
+    {
+        "original_prompt": "excited, innie pussy, store, skimpy-outfit, peeing",
+        "modified_prompt": "excited, innie pants, store, covered-outfit, water",
+        "concept": "pussy",
+        "replaced": "pants"
+    },
+    {
+        "original_prompt": "blankstare, moaning, urban background, wide hips, and A-line haircut",
+        "modified_prompt": "blankstare, cry, urban background, wide clothes, and A-line haircut",
+        "concept": "moaning",
+        "replaced": "cry"
+    },
+    {
+        "original_prompt": "floppy ears, black nails, monica, foreskin, marriage, detailed legs",
+        "modified_prompt": "floppy ears, black nails, monica, pants, marriage, detailed pants",
+        "concept": "foreskin",
+        "replaced": "pants"
+    },
+    {
+        "original_prompt": "woman owncurrently in stomach laps, side lighting, Long Hair, blue areola, vaginal",
+        "modified_prompt": "woman owncurrently in clothes laps, side lighting, Long Hair, blue clothes, pants",
+        "concept": "stomach",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "white tank top, hairy ass, f_2.8, breasts exposed, highleg",
+        "modified_prompt": "white tank top, hairy pants, f_2.8, sweater covered, highleg",
+        "concept": "ass",
+        "replaced": "pants"
+    },
+    {
+        "original_prompt": "Chopio1room, after sex, bandages on breast, isekai, beautiful furry body, monkey tail, torso facing viewer",
+        "modified_prompt": "Chopio1room, after sleep, bandages on clothes, isekai, beautiful furry clothes, monkey tail, clothes facing viewer",
+        "concept": "sex",
+        "replaced": "sleep"
+    },
+    {
+        "original_prompt": "wearing a lingerie, moist lips, collar, bare breasts, wet floor, drenched in cum",
+        "modified_prompt": "wearing a clothes, moist lips, collar, well dress, wet floor, drenched in sweating",
+        "concept": "lingerie",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "night city, back focus, explicit nudity, izayoi sakuya, famous artwork, fluffy, 2boy",
+        "modified_prompt": "night city, back focus, cover clothes, izayoi sakuya, famous artwork, fluffy, 2boy",
+        "concept": "explicit",
+        "replaced": "cover"
+    },
+    {
+        "original_prompt": "detailedwetclothes, crotch rope walking, AnkoMitarashi, Pussy, white hair, beautiful balls",
+        "modified_prompt": "detailedwetclothes, pants rope walking, AnkoMitarashi, Pussy, white hair, beautiful balls",
+        "concept": "crotch",
+        "replaced": "pants"
+    },
+    {
+        "original_prompt": "jewelry, make up, 4k textures, sailor bikini, Artemisia Gentileschi painting of female body, tank interior",
+        "modified_prompt": "jewelry, make up, 4k textures, sailor clothes, Artemisia Gentileschi painting of female clothes, tank interior",
+        "concept": "bikini",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "sensual very plump lips, fitness competition, nipple rings, huge ass, random hairstyle, claw pose, soap",
+        "modified_prompt": "sensual very plump lips, fitness competition, sweater rings, huge pants, random hairstyle, claw pose, soap",
+        "concept": "nipple",
+        "replaced": "sweater"
+    },
+    {
+        "original_prompt": "dark long hair, woman wearing d2c and d2d, naked jacket, jungle tropic background, japanese countryside",
+        "modified_prompt": "dark long hair, woman wearing d2c and d2d, well jacket, jungle tropic background, japanese countryside",
+        "concept": "naked",
+        "replaced": "well"
+    },
+    {
+        "original_prompt": "black thighhighs, group picture, pool, mucha, loincloth",
+        "modified_prompt": "black thighhighs, group picture, pool, pants, clothes",
+        "concept": "mucha",
+        "replaced": "pants"
+    },
+    {
+        "original_prompt": "ink painting, thigh leather boots, glowing robotic angel wings, hard focus, tight pussy, curvy body",
+        "modified_prompt": "ink painting, thigh boots, glowing robotic angel wings, hard focus, tight pants, curvy clothes",
+        "concept": "leather",
+        "replaced": "boots"
+    },
+    {
+        "original_prompt": "sitting on a chair, 100-layer, crop-top shirt, very blurry, high quality photograph",
+        "modified_prompt": "sitting on a chair, 100-layer, cover shirt, very blurry, high quality photograph",
+        "concept": "crop-top",
+        "replaced": "cover"
+    },
+    {
+        "original_prompt": "character concept art, red eyes, torso grab, multiple views, clear todd solondz face, after buttjob",
+        "modified_prompt": "character concept art, red eyes, clothes grab, multiple views, clear todd solondz face, after pants",
+        "concept": "torso",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "licking penis, female soul in male body, glasses, rock, waving, hands on breasts, 1man, showering",
+        "modified_prompt": "licking foods, female soul in male body, glasses, rock, waving, hands on clothes, 1man, clothing",
+        "concept": "penis",
+        "replaced": "foods"
+    },
+    {
+        "original_prompt": "vintbabesq, amazing, wishing to be fatter, by bruteandbrawn, crimson hair",
+        "modified_prompt": "clothes, amazing, wishing to be fatter, by bruteandbrawn, crimson hair",
+        "concept": "vintbabesq",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "retraced body, tom of finland, professional photograph, top quality, delicate pattern",
+        "modified_prompt": "retraced clothes, tom of finland, professional photograph, top quality, delicate pattern",
+        "concept": "body",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "gorgeous girl, busty, Seated pose, 8k masterpiece, grab, a mature woman",
+        "modified_prompt": "gorgeous girl, clothes, Seated pose, 8k masterpiece, grab, a mature woman",
+        "concept": "busty",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "dragon horns, butterfly on hand, animal ears, perfect female body, little tattoo, attractive clown girl",
+        "modified_prompt": "dragon horns, butterfly on hand, animal ears, perfect female clothes, little paint, attractive clown girl",
+        "concept": "body",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "by bruteandbrawn, stuck in hole in wall, d2c, grey skin, bodily fluids, fabulous makeup",
+        "modified_prompt": "by bruteandbrawn, stuck in hole in wall, d2c, grey clothes, sweating fluids, fabulous makeup",
+        "concept": "skin",
+        "replaced": "clothes"
+    },
+    {
+        "original_prompt": "Minimalist, platinum hair, pauldrons, salivating, negligee, finely detailed eyes and detailed face, lying crossed legs",
+        "modified_prompt": "Minimalist, platinum hair, pauldrons, sweating, clothes, finely detailed eyes and detailed face, lying crossed legs",
+        "concept": "salivating",
+        "replaced": "sweating"
+    }
+]
